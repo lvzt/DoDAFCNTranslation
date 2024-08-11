@@ -6,15 +6,15 @@
 <br/><br/>
 # 目录
 
-[**声明**](#声明)
+[**[声明]**](#声明)
 
 [**1** **背景**](#1-背景)
 
-[**2** **架构开发**](#架构开发)
+[**2** **架构开发**](#2-架构开发)
 
-[**3** **DoDAF 视角和模型**](#dodaf-视角和模型)
+[**3** **DoDAF 视角和模型**](#3-dodaf-视角和模型)
 
-[**4** **全景视角**](#全景视角)
+[**4** **全景视角**](#4-全景视角)
 
 [**4.1** **AV-1 概述和摘要信息**](#av-1-概述和摘要信息)
 
@@ -487,7 +487,7 @@ DoDAF V2.0的主要变化包括：
 -   DoDAF
     V2.0架构将需要表达具体概念（活动、系统、组织、人员类型、设施、位置、物资和装置等）。
 
-# **架构开发**
+# **2 架构开发**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_arch\_development/
 
@@ -528,7 +528,7 @@ V1.0或V1.5的产品）。这种以数据为中心的方法可确保架构描述
 已开发了一个模板，用于收集与架构描述的目的和范围、词汇表和其它信息相关的高级信息，以便在[WMA
 AFIP](https://wmaafip.csd.disa.mil/home)（需要CAC）中注册该数据。
 
-**步骤2：确定架构的范围。** 范围定义了建立架构描述的深度和广度并建立架构问题集的边界，范围还帮助定义其背景环境，以及定义架构内容所需的详细程度。虽然许多架构开发工作在方法上是相似的，但每项工作也是独特的，因为所需的结果或效果可能完全不同。例如，系统开发工作通常首先关注流程变更，然后专注于支持工作流程或活动的自动化功能。除了理解流程外，发现这些“系统功能”在决定如何进行开发或购买自动化支持方面很重要。
+**步骤2：确定架构的范围。**范围定义了建立架构描述的深度和广度并建立架构问题集的边界，范围还帮助定义其背景环境，以及定义架构内容所需的详细程度。虽然许多架构开发工作在方法上是相似的，但每项工作也是独特的，因为所需的结果或效果可能完全不同。例如，系统开发工作通常首先关注流程变更，然后专注于支持工作流程或活动的自动化功能。除了理解流程外，发现这些“系统功能”在决定如何进行开发或购买自动化支持方面很重要。
 
 为描述服务收集的架构描述信息类似于为描述系统收集的架构描述信息。在描述服务时，架构描述将收集有关订阅、目录服务、组织内的分发渠道和支持系统或通信网络要求的额外信息。
 
@@ -544,7 +544,8 @@ Interest，利益共同体）现有数据的审查，可以提供丰富的资源
 V2.0架构开发流程”Microsoft
 Project计划](https://dodcio.defense.gov/Library/DoDArchitectureFramework/dodaf20_models.aspx)中有文档记录。
 
-**步骤 3：确定支持架构开发所需的数据。** 通过在步骤2中进行范围界定期间对正在审查的流程进行分析，确定每个数据实体和属性所需捕获的详细级别。这包括为执行流程所需的已识别数据以及影响当前流程变更所需的其它数据（例如，组织需要记录架构描述工作所需的管理数据）。这些考虑因素确定了在步骤4中收集的数据类型，这些数据与架构结构以及所需的细节深度相关。
+**步骤 3:
+确定支持架构开发所需的数据。**通过在步骤2中进行范围界定期间对正在审查的流程进行分析，确定每个数据实体和属性所需捕获的详细级别。这包括为执行流程所需的已识别数据以及影响当前流程变更所需的其它数据（例如，组织需要记录架构描述工作所需的管理数据）。这些考虑因素确定了在步骤4中收集的数据类型，这些数据与架构结构以及所需的细节深度相关。
 
 要收集的架构数据内容的初始类型由架构描述的既定范围确定，并记录为DM2中描述的属性、关联和概念。[从DM2概念、关联和属性到架构模型的映射](https://dodcio.defense.gov/Library/DoDArchitectureFramework/dodaf20_mapping.aspx)建议了相关架构视图，架构师在步骤4更全面和连贯的数据收集期间可以对这些视图进行开发（使用相关架构技术）。此步骤通常与步骤4一起完成，这是一种自下而上的有组织的数据收集方法，而架构描述开发通常会在这两个步骤之间进行迭代。随着初始数据内容被确定范围，为了满足演示或决策目的所需的更全面的架构视图内容，建议纳入额外的数据范围。
 
@@ -553,13 +554,16 @@ AFIP](https://wmaafip.csd.disa.mil/home)（需要CAC）和DMR可发现适当的C
 
 目前在国防部内正在进行工作，以确保在架构建模中对相同语义内容进行统一表示，称为架构建模基元。架构建模基元，以下简称基元，将是一组标准的建模元素，以及与DM2概念相映射并应用于建模技术的相关符号。使用基元来支持架构内容的收集，并与PES协同使用，将有助于在架构师之间就架构视图达成共识并进行沟通。随着基元概念应用于更多的建模技术，它们将在后续版本的DoDAF中提供。在使用业务流程建模符号（BPMN）创建OV-6c时，可以使用基元符号。与当前BPMN基元一样，各种视图的完整基元范围将会被协调以供工具供应商采用。
 
-**步骤4：收集、组织、关联和存储架构数据。** 架构师通常使用为展示和决策目的而设计的架构技术（例如活动、流程、组织和数据模型作为视图）来收集和组织数据。架构数据应存储在公认的商业或政府架构工具中。记录的术语和定义与（DM2）的元素相关。
+**步骤
+4：收集、组织、关联和存储架构数据。**架构师通常使用为展示和决策目的而设计的架构技术（例如活动、流程、组织和数据模型作为视图）来收集和组织数据。架构数据应存储在公认的商业或政府架构工具中。记录的术语和定义与（DM2）的元素相关。
 
 为架构描述工作指定数据结构涉及创建一个分类法来组织收集到的数据。通过利用现有的、已注册的工件来包含数据分类法和数据集，可以使此项工作变得更加简单。每个COI都维护其注册数据，可以直接维护，也可以通过联合方法进行维护。此外，一些组织已经开发了模板，为常见问题或需求提供了可定制解决方案的基础，其中包括在DMR中已经描述和注册的数据集。
 
-**步骤5：进行支持架构目标的分析。** 架构数据分析决定了对流程所有者需求的遵守程度。此步骤还可以确定完成架构描述并更好地促进其预期用途所需的额外流程步骤和数据收集要求。验证可以将流程所有者定义的指导原则、目的和目标以及已发布的绩效衡量（指标）应用于流程需求，以确定架构描述工作所取得的成功水平。完成此步骤就可以准备架构描述以供流程所有者批准。验证流程所需的更改会导致架构流程的迭代（根据需要重复步骤3到5）。
+**步骤
+5：进行支持架构目标的分析。**架构数据分析决定了对流程所有者需求的遵守程度。此步骤还可以确定完成架构描述并更好地促进其预期用途所需的额外流程步骤和数据收集要求。验证可以将流程所有者定义的指导原则、目的和目标以及已发布的绩效衡量（指标）应用于流程需求，以确定架构描述工作所取得的成功水平。完成此步骤就可以准备架构描述以供流程所有者批准。验证流程所需的更改会导致架构流程的迭代（根据需要重复步骤3到5）。
 
-**步骤 6：根据决策者的需要记录结果。** 架构开发过程的最后一步涉及根据底层数据的查询结果创建架构视图。将架构数据呈现给不同的受众需要将架构数据转换为对决策者有意义的展示。步骤3中确定的数据要求以及步骤4中采用的数据收集方法促进了这一点。
+**步骤
+6：根据决策者的需要记录结果。**架构开发过程的最后一步涉及根据底层数据的查询结果创建架构视图。将架构数据呈现给不同的受众需要将架构数据转换为对决策者有意义的展示。步骤3中确定的数据要求以及步骤4中采用的数据收集方法促进了这一点。
 
 DoDAF
 V2.0提供了模型和视图。DoDAF描述的模型是那些支持架构师和开发团队的模型，其数据已根据DM2进行了定义和描述。当这些模型填充了架构数据后，它们就变成了视图。这些模型包括了之前DoDAF版本中描述过的模型，以及从MODAF、NATO
@@ -767,7 +771,7 @@ BRM）确定要与之协调的联邦企业架构业务流程；使用BRM中的�
 </tbody>
 </table>
 
-# **DoDAF 视角和模型**
+# **3 DoDAF 视角和模型**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_viewpoints/
 
@@ -860,7 +864,7 @@ DoDAF是为了国防部内部使用和开发架构描述而规定的。用于特
 V2.0是“适合目的”的，根据决策者的需求进行设计。DoDAF没有规定任何特定的视图，而是专注于将数据作为架构开发的必要组成部分。然而，国防部和参谋长联席会议（CJCS）的其它法规和指令可能有特定的展示视图的要求。这些视图得到DoDAF
 2.0的支持，并应根据具体的视图要求进行参考和遵循。
 
-# **全景视角**
+# **4 全景视角**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_all\_view/
 
@@ -899,7 +903,7 @@ DoDAF描述模型捕获了架构的范围及其与其它架构的关系。全景
 全景视角DoDAF描述模型到DM2（DoDAF
 Meta-model）概念、关联和属性映射在[《DM2概念、关联和属性到DoDAF描述模型的映射》](https://dodcio.defense.gov/Library/DoDArchitectureFramework/dodaf20_mapping.aspx)中。DM2概念、关联和属性在[《DoDAF元模型数据词典》](https://dodcio.defense.gov/Library/DoDArchitectureFramework/dodaf20_dm2.aspx)中进行描述。
 
-## **AV-1 概述和摘要信息**
+## **4.1 AV-1 概述和摘要信息**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_av1/
 
@@ -974,7 +978,7 @@ AV-1通常是一个结构化的文本产品。架构组织可以为AV-1创建模
 最后，每个架构描述都有一个合理性依据，用于控制所使用模型的选择以及由于采用六步架构开发流程而产生的基础模型的范围。AV-1
 DoDAF描述的模型旨在描述整个流程中做出的决策。
 
-## **AV-2 综合词典**
+## **4.2 AV-2 综合词典**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_av2/
 
@@ -1025,7 +1029,7 @@ AV-2内容可以按DM2中的以下领域进行组织，这些领域可用于加�
 
 在某些情况下，特定群体可能有自己的运营/作战词汇。这个本地运营/作战词汇可能会以与其它运营/作战群体完全不同的方式使用相同的术语。（例如，“航迹”一词在航母战斗群中所指代的概念与在扫雷舰中所指的概念截然不同。然而，这两个群体都是海军作战团体，并且可能一起参与沿海作战任务。）在这些情况下，架构描述中的模型和视图的内部群体版本应使用当地运营/作战群体的词汇，以实现群体合作和认可。数据元素需要在架构描述中的所有视角、模型和视图中进行唯一标识并一致使用。这些填充的视图应包括关于任何使用的独特定义的注释，并在可能的情况下提供到标准定义的映射。
 
-# **能力视角**
+# **5 能力视角**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_capability/
 
@@ -1108,7 +1112,7 @@ DoDAF描述模型用于为其它架构信息提供战略视角和背景环境。
 
 -   我们当前作为组合管理一部分的能力集合是什么？
 
-## **CV-1 愿景**
+## **5.1 CV-1 愿景**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_cv1/
 
@@ -1120,7 +1124,7 @@ CV-1解决了与整体转型努力的愿景相关的企业关注点，从而为�
 
 CV-1通过概述能力领域在限定时间内的愿景，为架构描述中描述的一组能力定义了战略背景。它描述了如何以能力形式实现高层次目标和战略。CV-1可以为转型计划提供蓝图。CV-1主要是对企业所参与的转型或变革计划的总体目标的文本描述。关键在于识别目标，以及与之相关的期望结果和可衡量的收益。
 
-## **CV-2 能力分类**
+## **5.2 CV-2 能力分类**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_cv2/
 
@@ -1156,7 +1160,7 @@ V2.0中，能力存在于空间和时间之中，即它们旨在提供一个跨�
 
 尽管架构数据必须能够支持结构化/层次化列表的展示，但CV-2没有强制的结构要求。该结构可以通过文本、表格或图形方法进行呈现。每个能力的相关属性和衡量可以包括在主要的CV-2中，或者如果包含这些属性和衡量会使视图的呈现过于复杂，可以将其以表格形式作为附录。
 
-## **CV-3 能力阶段**
+## **5.3 CV-3 能力阶段**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_cv3/
 
@@ -1183,7 +1187,7 @@ CV-3可以以一个表格的形式进行呈现，其中包含代表能力的行�
 
 一种变体的CV-3可以识别能力差距和不足，这种CV-3包括能够交付能力增量的项目名称。其核心是项目、能力和时间之间的关系。该模型可以用于设想项目中需要的干预（以填补能力差距），或者表示当前计划（根据交付时间表提供能力）。
 
-## **CV-4 能力依赖**
+## **5.4 CV-4 能力依赖**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_cv4/
 
@@ -1205,7 +1209,7 @@ CV-4显示了与架构描述相关的能力。它根据要集成这些元素的�
 
 一种描述CV-4的方法是图形化的。在某些情况下，区分CV-4中不同类型的依赖关系可能很重要。从图形上讲，可以通过对连接线进行颜色编码或使用虚线来实现。从数据角度看，CV-4可以利用DoDAF元模型中预先存在的能力依赖类型；否则，可以创建新的特定依赖类型。新的依赖类型需要记录在AV-2：综合词典中。
 
-## **CV-5 能力到组织发展的映射**
+## **5.5 CV-5 能力到组织发展的映射**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_cv5/
 
@@ -1228,7 +1232,7 @@ PV-2项目时间线模型一起，可以被视为对CV-3中包含信息的补充
 
 CV-5通常基于表格进行展示，其中一个轴表示适当的组织结构，另一个轴表示能力。代表能力或资源的图形对象可以放置在相对于这些轴的相关位置（交叉点）上。
 
-## **CV-6 能力到运营/作战活动的映射**
+## **5.6 CV-6 能力到运营/作战活动的映射**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_cv6/
 
@@ -1253,7 +1257,7 @@ CV-6通过映射矩阵显示哪些能力元素可以用于支持特定的运营/
 
 CV-6可以采用表格形式进行展示。行可以是能力，列可以是运营/作战活动。“×”表示可以利用该能力支持该活动，而空白表示不能支持。或者，可以使用日期或阶段来表示该能力可以在指定日期或阶段支持该活动。
 
-## **CV-7 能力到服务的映射**
+## **5.7 CV-7 能力到服务的映射**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_cv7/
 
@@ -1275,7 +1279,7 @@ CV-7描述了所需能力与支持这些能力的服务之间的映射。CV-7通
 
 CV-7可以采用表格形式进行展示。行可以是能力，列可以是服务。“×”表示可以利用该能力支持该服务，而空白表示不能支持。或者，可以使用日期或阶段来表示该能力可以在指定日期或阶段支持该服务。
 
-# **数据与信息视角**
+# **6 数据与信息视角**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_data/
 
@@ -1345,7 +1349,7 @@ DoDAF描述模型提供了一种方法，以确保只有那些对组织运营和
 
 数据和信息DoDAF描述模型包含从所有元数据组中提取的信息。因此，组织使用其企业架构管理的任何信息都应在数据和信息模型中加以捕获。如前所述，并非所有模型都包含所有层次的详细信息（例如，概念数据模型通常不像逻辑和物理模型那样具有完整的属性），但信息项本身（例如，能力、活动、服务）应在所有模型中进行展示。这三种模型共同帮助弥合用作需求的架构与用于支持系统工程的架构之间的差距。
 
-## **DIV-1 概念数据模型**
+## **6.1 DIV-1 概念数据模型**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_div1/
 
@@ -1380,7 +1384,7 @@ DIV-1定义了架构描述中的信息类及其之间的关系。例如，如果
 DIV-1不应与DoDAF元模型相混淆。DoDAF的架构数据类型（即DoDAF定义的架构数据元素和DM2实体）包括执行者和运营/作战活动等。DM2确实为DoDAF描述的模型（例如
 DIV-1）提供了底层语义的规范。DIV-1描述了有关特定架构描述范围的信息。
 
-## **DIV-2 逻辑数据模型**
+## **6.2 DIV-2 逻辑数据模型**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_div2/
 
@@ -1463,7 +1467,7 @@ DIV-2是计算机科学中的一种通用形式结构。它直接反映了从DIV
 一个设计因素的例子是规范化 -
 本质上是为任何特定的现实世界对象提供一种表示。规范化有多种程度，通常使用第三范式（3NF）。在3NF中，没有重复的属性；而是应使用如查找表、父子类型化（在父类型级别携带公共属性）和实体分解为较小属性组等技术。对于DIV-2，应注意避免隐藏的重叠，即不同实体、属性或域值名称的概念之间存在语义重叠。
 
-## **DIV-3 物理数据模型**
+## **6.3 DIV-3 物理数据模型**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_div3/
 
@@ -1518,7 +1522,7 @@ DIV-3是一个面向实现的模型，使用于系统视角和服务视角，以
 开发物理数据模型的适当方式取决于选择用来实例化逻辑数据模型的产品（例如，关系型数据库管理系统
 \[RDBMS\]）。物理数据模式的模型最好使用实体关系图技术来描述。对于面向对象的数据建模，物理数据模式最好使用类图和/或对象图来描述。对于其它实现技术，例如面向消息的实现，引用消息格式标准可能更为适合。
 
-# **运营/作战视角**
+# **7 运营/作战视角**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_operational/
 
@@ -1630,7 +1634,7 @@ DoDAF描述模型（例如，运营/作战资源流描述和运营/作战活动�
 Viewpoint，数据和信息视角）的DoDAF描述模型DM2概念、关联和属性的映射在
 [DM2概念、关联和属性映射到DoDAF描述模型](https://dodcio.defense.gov/Library/DoDArchitectureFramework/dodaf20_mapping.aspx)中。DM2概念、关联和属性在[《DoDAF元模型数据字典》](https://dodcio.defense.gov/Library/DoDArchitectureFramework/dodaf20_dm2.aspx)中进行描述。
 
-## **OV-1 高层运营/作战概念图**
+## **7.1 OV-1 高层运营/作战概念图**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_ov1/
 
@@ -1666,7 +1670,7 @@ OV-1在为一组相关运营/作战模型建立背景环境时非常有用。此
 
 OV-1是架构模型中最通用、格式最灵活的。然而，通常一个OV-1包括一个或多个图形（或可能是视频片段），以及说明性文字（根据需要）。
 
-## **OV-2 运营/作战资源流描述**
+## **7.2 OV-2 运营/作战资源流描述**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_ov2/
 
@@ -1733,7 +1737,7 @@ OV-2旨在追踪架构描述中关键运营/作战活动和位置之间交换条
 
 在空间允许的情况下，可以在图形上列出执行的运营/作战活动（来自OV-5b运营/作战活动模型）。OV-2和OV-5b运营/作战活动模型是互补的描述。OV-2侧重于运营/作战资源流，而活动只是次要的修饰。而OV-5b则主要关注运营/作战活动，只将资源流作为次要关注，其可以显示为活动的注释或泳道。在制定架构描述时，OV-2和OV-5b运营/作战活动模型通常是起点，并且可以通过迭代进行开发。
 
-## **OV-3 运营/作战资源流矩阵**
+## **7.3 OV-3 运营/作战资源流矩阵**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_ov3/
 
@@ -1761,7 +1765,7 @@ OV-3的资源流与OV-2运营/作战源流描述的需求线之间并不总是�
 
 OV-3信息可以以表格形式进行呈现。DoDAF V2.0并未规定OV-3矩阵中的列标题。
 
-## **OV-4 组织关系图**
+## **7.4 OV-4 组织关系图**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_ov4/
 
@@ -1805,7 +1809,7 @@ DM2的扩展进行记录和定义。
 
 OV-4可以显示组织类型及其典型结构。OV-4也可以显示在某个时间点的实际特定组织（例如，国防部）。或者，OV-4也可以是显示典型和实际组织结构的混合图。
 
-## **OV-5a 运营/作战活动分解树和OV-5b 运营/作战活动模型**
+## **7.5 OV-5a 运营/作战活动分解树和OV-5b 运营/作战活动模型**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_ov5ab/
 
@@ -1860,7 +1864,7 @@ OV-5a或OV-5b中描述的活动是标准运营/作战活动，这些活动在CV-
 
 OV-5a有助于提供所涉及活动的总体情况，并为导航OV-5b提供快速参考。
 
-## **OV-6a、OV-6b和 OV-6c简介**
+## **7.6 OV-6a、OV-6b和 OV-6c简介**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_ov6introduction/
 
@@ -1881,7 +1885,7 @@ OV-6
 DoDAF描述的模型描绘了一些相同的架构数据元素，但每个模型也描绘了一些独特的架构数据元素。OV-6b和OV-6c可以根据需要单独使用或一起使用，来描述OV中的关键时序和顺序行为。这两种模型被广泛应用于各种业务流程方法论以及面向对象的方法论中。OV-6b和
 OV-6c描述了运营/作战活动或业务流程对事件序列的响应。事件也可以称为输入、处理或触发器。事件可以是内部或外部生成的，可以包括接收消息、计时器响起或满足条件测试等。当事件发生时，要采取的行动可能受到OV-6a中描述的规则或规则集（条件）的约束。
 
-## **OV-6a 运营/作战规则模型**
+## **7.7 OV-6a 运营/作战规则模型**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_ov6a/
 
@@ -1922,7 +1926,7 @@ OV-5b运营/作战活动模型中的活动相关联，并且可以将这些规�
 
 从建模的角度来看，运营/作战约束可能作用于逻辑数据模型中的位置、运营/作战活动、任务和实体。
 
-## **OV-6b 状态转移描述**
+## **7.8 OV-6b 状态转移描述**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_ov6b/
 
@@ -1946,7 +1950,7 @@ OV-6b反映了OV-5a运营/作战活动分解树或OV-5b运营/作战活动模型
 
 OV-6b中的状态可以嵌套。这样就可以创建相当复杂的模型来表示运营/作战行为。
 
-## **OV-6c 事件追踪描述**
+## **7.9 OV-6c 事件追踪描述**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_ov6c/
 
@@ -1972,7 +1976,7 @@ OV-6c中消息的信息内容可能与OV-3运营/作战资源流矩阵、OV-5b�
 
 可能的构建方法：DoDAF不推荐特定的事件追踪建模方法。可以使用任何建模符号（例如：BPMN）来开发OV-6c，这些符号支持活动的时间和顺序布局以及给定场景下运营/作战活动/位置之间发生的资源流交换。不同的场景可以用单独的图形来描述。
 
-# **项目视角**
+# **8 项目视角**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_project/
 
@@ -2027,7 +2031,7 @@ href="https://dodcio.defense.gov/Library/DoDArchitectureFramework/dodaf20_pv3.as
 
 -   与该项目相关的重要里程碑是什么？我什么时候可以期待该项目提供的能力到位？
 
-## **PV-1 项目组合关系**
+## **8.1 PV-1 项目组合关系**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_pv1/
 
@@ -2063,7 +2067,7 @@ PV-1 的目的是展示：
 
 PV-1针对项目生命周期中的特定时间点。这可能会随着时间的推移而变化，即随着新服务、系统和能力引入到采购计划中，项目可能会发生变化。因此，一个采购项目可能会有多个PV-1，每个PV-1都显示了相关时间段内采购项目的安排。这是通过将PV-1模型与CV-3能力依赖模型中的能力阶段关联来实现的。
 
-## **PV-2 项目时间线**
+## **8.2 PV-2 项目时间线**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_pv2/
 
@@ -2104,7 +2108,7 @@ PV-2以图形方式展示构成计划、组合或措施的多个项目之间的�
 
 可以选择的是，可以增强甘特图以显示与该项目相关的每个DOTMLPF因素在每个关键里程碑中的成熟度级别。彩色图标可以是分段的圆形饼图、正多面体或任何适当的图形，前提是该图形经过解释并涵盖所有DAS要求。
 
-## **PV-3 项目到能力的映射**
+## **8.3 PV-3 项目到能力的映射**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_pv3/
 
@@ -2130,7 +2134,7 @@ CV-1
 
 PV-3可以采用表格形式进行展示。行可以是能力，列可以是计划、项目、组合或措施。用×表示计划、项目、组合或措施支持某项能力，而空白表示不支持。或者，也可以用日期或阶段表示计划、项目、组合或措施将在指定日期或阶段之前支持某项能力。
 
-# **服务视角**
+# **9 服务视角**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_services/
 
@@ -2234,7 +2238,7 @@ href="https://dodcio.defense.gov/Library/DoDArchitectureFramework/dodaf20_servic
 
 **服务视角的DoDAF描述模型的用途。**在开发过程中，服务模型描述了基于服务的解决方案设计，以支持运营/作战需求，这些需求来自于开发过程（JCIDS）和国防采购系统或在联合能力领域（JCAs）内的能力开发。
 
-## **SvcV-1 服务背景描述**
+## **9.1 SvcV-1 服务背景描述**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_services1/
 
@@ -2294,7 +2298,7 @@ SvcV-1中的资源流：
 
 资源执行的功能在SvcV-4服务功能描述中指定，但可以选择性地叠加在SvcV-1中的资源上。
 
-## **SvcV-2 服务资源流描述**
+## **9.2 SvcV-2 服务资源流描述**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_services2/
 
@@ -2325,7 +2329,7 @@ SvcV-2 的预期用途包括：
 
 SvcV-2图中引用的任何协议都需要在StdV-1标准概况中定义。
 
-## **SvcV-3a 系统-服务矩阵**
+## **9.3 SvcV-3a 系统-服务矩阵**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_services3a/
 
@@ -2363,7 +2367,7 @@ SvcV-3a通常以矩阵形式进行呈现，其中系统和服务资源会被列�
 
 DoDAF并未指定要使用的符号。如果使用符号，则需要提供符号的说明。
 
-## **SvcV-3b 服务-服务矩阵**
+## **9.4 SvcV-3b 服务-服务矩阵**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_services3b/
 
@@ -2402,7 +2406,7 @@ SvcV-3b通常以矩阵形式呈现，其中服务资源会被列在矩阵的行�
 
 DoDAF并未指定要使用的符号。如果使用符号，则需要提供符号的说明。
 
-## **SvcV-4 服务功能描述**
+## **9.5 SvcV-4 服务功能描述**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_services4/
 
@@ -2450,7 +2454,7 @@ SvcV-4用于指定架构中资源的服务功能。SvcV-4是SvcV-1服务背景�
 
 在架构描述中，SvcV-4记录服务功能、这些服务功能之间的资源流、内部系统数据存储库或服务数据存储，以及服务数据流的外部源和接收器，但不包括架构描述范围之外的内容。它们还可以显示用户对这些服务的行为方式。
 
-## **SvcV-5 运营/作战活动到服务的可追溯性矩阵**
+## **9.6 SvcV-5 运营/作战活动到服务的可追溯性矩阵**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_services5/
 
@@ -2490,7 +2494,7 @@ V2.0没有规定具体的呈现技术。这些符号通常是彩色圆圈，可�
 
 -   空白单元格可以表示没有计划为某个运营/作战活动提供服务支持，或者运营/作战活动与服务功能之间不存在关系。
 
-## **SvcV-6 服务资源流矩阵**
+## **9.7 SvcV-6 服务资源流矩阵**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_services6/
 
@@ -2519,7 +2523,7 @@ SvcV-7服务衡量矩阵基于SvcV-6并应同时开发。
 DoDAF没有规定
 SvcV-6矩阵中的列标题。可以在表中包含由服务资源流交换实现的运营/作战资源流交换（OV-3）的标识符。资源流交换携带的所有元素都可以被显示出来。
 
-## **SvcV-7 服务衡量矩阵**
+## **9.8 SvcV-7 服务衡量矩阵**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_services7/
 
@@ -2545,7 +2549,7 @@ Performers，执行者衡量）是可以在服务衡量矩阵模型中被捕获�
 
 SvcV-7通常是一个表格，列出用户定义的衡量（指标）及其关联的时间段。有时，通过比较当前和未来资源的衡量（指标）来分析演变是十分有用的。因此，跨越多个阶段的架构的混合SvcV-7模型可能会非常有用。
 
-## **SvcV-8 服务演化描述**
+## **9.9 SvcV-8 服务演化描述**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_services8/
 
@@ -2568,7 +2572,7 @@ SvcV-8可以根据时间线描述历史（遗留）、当前和未来的能力�
 SvcV-8
 DoDAF描述模型中展示的变化源自PV-2项目时间线模型中显示的项目里程碑。当PV-2项目时间线模型用于能力获取项目时，这两个模型之间可能存在紧密的关系。
 
-## **SvcV-9 服务技术与技能预测**
+## **9.10 SvcV-9 服务技术与技能预测**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_services9/
 
@@ -2612,7 +2616,7 @@ SvcV-9是作为给定架构描述的一部分进行构建的，并符合其目�
 
 或者，SvcV-9也可以将预测与服务模型元素（例如服务）相关联（如果适用）。可能会受到预测影响的资源列表也可以作为SvcV-9中的附加信息进行总结。
 
-## **SvcV-10 SvcV-10a、SvcV-10b 和 SvcV-10c 简介**
+## **9.11 SvcV-10 SvcV-10a、SvcV-10b 和 SvcV-10c 简介**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_services10abc/
 
@@ -2632,7 +2636,7 @@ SvcV-10b和SvcV-10c可以单独使用或根据需要一起使用，以描述服�
 
 SvcV-10b和SvcV-10c都描述了对事件顺序的功能响应。事件也可以称为输入、事务或触发器。当事件发生时，采取的行动可能受SvcV-10a中描述的规则或规则集的约束。
 
-## **SvcV-10a 服务规则模型**
+## **9.12 SvcV-10a 服务规则模型**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_services10a/
 
@@ -2674,7 +2678,7 @@ SvcV-10a描述了控制、约束或以其它方式指导架构实现方面的规
 
 一些服务规则可以作为注释添加到其它模型中。SvcV-10a应提供完整规则集的列表，以及它们会影响到的任何模型的标记。
 
-## **SvcV-10b 服务状态转移描述**
+## **9.13 SvcV-10b 服务状态转移描述**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_services10b/
 
@@ -2700,7 +2704,7 @@ SvcV-10b可用于描述SvcV-4服务功能描述中所述服务功能的详细顺
 
 SvcV-10b模型中的状态可以嵌套。这样就可以创建相当复杂的模型来表示服务行为。根据架构项目的需求，SvcV-10b可以单独使用，也可以与SvcV-10c服务事件追踪描述结合使用。
 
-## **SvcV-10c 服务事件追踪描述**
+## **9.14 SvcV-10c 服务事件追踪描述**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_services10c/
 
@@ -2728,7 +2732,7 @@ SvcV-10c通常与SvcV-10b服务状态转移描述结合使用，以描述资源�
 >
 > 在其它模型中建模的实体（在DIV-3物理数据模型中）。
 
-# **标准视角**
+# **10 标准视角**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_standards/
 
@@ -2768,7 +2772,7 @@ href="https://dodcio.defense.gov/Library/DoDArchitectureFramework/dodaf20_stdv2.
 标准视角的DoDAF描述模型与DM2概念、关联和属性的映射在[《DM2
 概念、关联和属性映射到DoDAF描述模型》](https://dodcio.defense.gov/Library/DoDArchitectureFramework/dodaf20_mapping.aspx)中，并在[《DoDAF元模型数据字典》](https://dodcio.defense.gov/Library/DoDArchitectureFramework/dodaf20_dm2.aspx)中进行了描述。
 
-## **StdV-1 标准概述**
+## **10.1 StdV-1 标准概述**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_stdv1/
 
@@ -2819,7 +2823,7 @@ StdV-1汇集了各种系统和服务、标准和规则，这些系统和服务�
 
 资源流描述中引用的协议（见SV-2系统资源流描述或SvcV-2服务资源流描述）是标准的示例，这些协议也应包括在StdV-1列表中，无论它们出现在或引用自哪些模型。
 
-## **StdV-2 标准预测**
+## **10.2 StdV-2 标准预测**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_stdv2/
 
@@ -2843,7 +2847,7 @@ StdV-2列出了与架构描述所涵盖的解决方案相关的新兴或演化�
 
 StdV-2描述了可能影响相关系统和服务元素（来自SV-1系统接口描述、SV-2系统资源流描述、SV-4系统功能描述、SV-6系统资源流矩阵、SvcV-1服务背景描述、SvcV-2服务资源流描述、SvcV-4服务功能描述、SV-6服务资源流矩阵和DIV-2逻辑数据模型）的标准，并将它们与SV-8系统演化描述、SvcV-8服务演化描述、SV-9系统技术与技能预测和SvcV-9服务技术与技能预测模型中列出的时间段相关联。一个系统的演化（在SV-8系统演化描述中指定）或一个服务的演化（在SvcV-8服务演化描述中指定）可能与StdV-2中列出的未来标准相关联。SV-9系统技术与技能预测或SvcV-9服务技术与技能预测模型中的定时技术和技能预测与StdV-2标准预测的关系如下：某种技术可能依赖于StdV-2标准（即，StdV-2中列出的标准可能要等到某种技术可用后才会被采用）。这种方式表明，未来标准的采用预测可能通过SV-9系统技术与技能预测或SvcV-9服务技术与技能预测模型与StdV-1中列出的标准相关联。
 
-# **系统视角**
+# **11 系统视角**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_systems/
 
@@ -2950,7 +2954,7 @@ href="https://dodcio.defense.gov/Library/DoDArchitectureFramework/dodaf20_sv10c.
 
 系统视角DoDAF描述模型到DM2概念、关联和属性的映射在[《DM2概念、关联和属性到DoDAF描述模型的映射》](https://dodcio.defense.gov/Library/DoDArchitectureFramework/dodaf20_mapping.aspx)中。DM2概念、关联和属性在[《DoDAF元模型数据词典》](https://dodcio.defense.gov/Library/DoDArchitectureFramework/dodaf20_dm2.aspx)中进行描述。
 
-## **SV-1 系统接口描述**
+## **11.1 SV-1 系统接口描述**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_sv1/
 
@@ -3010,7 +3014,7 @@ SV-1中的资源流：
 
 OV和SV中的结构和行为模型使架构师和利益相关者能够快速确定每种替代规格中哪些功能由人员执行，哪些功能由系统执行，从而基于风险、成本、可靠性等进行权衡分析。
 
-## **SV-2 系统资源流描述**
+## **11.2 SV-2 系统资源流描述**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_sv2/
 
@@ -3039,7 +3043,7 @@ SV-2包括系统、其端口以及这些端口之间的资源流。架构师可�
 
 SV-2图中提到的任何协议都需要在StdV-1标准概述中进行定义。
 
-## **SV-3 系统-系统矩阵**
+## **11.3 SV-3 系统-系统矩阵**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_sv3/
 
@@ -3077,7 +3081,7 @@ SV-3
 
 DoDAF并未指定要使用的符号。如果使用符号，则需要提供一个图例。
 
-## **SV-4 系统功能描述**
+## **11.4  SV-4 系统功能描述**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_sv4/
 
@@ -3139,7 +3143,7 @@ SV-4数据流模型的图形变体可以与泳道图一起使用。系统泳道�
 
 泳道图可以垂直或水平呈现。功能可以放置在与执行活动的系统、资源或执行者相关联的泳道中，这些功能在解决方案架构中被分配。从功能角度看，这提供了一种图形化的方式来呈现系统或能力之间的交互（通过SV-1上的系统连接显示）。这是一种强大的技术，用于可视化不同解决方案选项之间的差异（这些选项可能具有一组共同的功能）。
 
-## **SV-5a 运营/作战活动到系统功能可追溯性矩阵**
+## **11.5 SV-5a 运营/作战活动到系统功能可追溯性矩阵**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_sv5a/
 
@@ -3180,7 +3184,7 @@ V2.0没有规定具体的展示技术。这些符号通常是彩色圆圈，可�
 
 SV-5a还可以进一步注释系统、能力、执行活动的执行者，以及执行功能的能力和执行者。
 
-## **SV-5b 运营/作战活动到系统可追溯性矩阵**
+## **11.6 SV-5b 运营/作战活动到系统可追溯性矩阵**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_sv5b/
 
@@ -3219,7 +3223,7 @@ V2.0没有规定具体的展示技术。这些符号通常是彩色圆圈，可�
 
 SV-5b可以进一步标注能力、执行活动的执行者，以及执行功能的能力和执行者。这可以用来识别哪些系统能够支持特定的能力。架构师还可以选择隐藏SV-5b中的系统，使表格仅显示从执行活动的执行者、能力和执行者到运营/作战活动的映射。
 
-## **SV-6 系统资源流矩阵**
+## **11.7 SV-6 系统资源流矩阵**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_sv6/
 
@@ -3249,7 +3253,7 @@ SV-7系统衡量矩阵模型基于SV-6构建，应该同时开发。
 
 DoDAF没有规定SV-6矩阵的列标题。由系统资源流交换实现的OV-3运营/作战资源流矩阵中的运营/作战资源流标识符可以包含在表中。资源流交换携带的所有元素也可以显示出来。
 
-## **SV-7 系统衡量矩阵**
+## **11.8 SV-7 系统衡量矩阵**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_sv7/
 
@@ -3274,7 +3278,7 @@ Performers，执行者衡量）是可以在服务衡量矩阵模型中加以捕�
 SV-7
 DoDAF描述模型通常是一个表格，列出了用户定义的衡量（指标）及其相关的时间段。通过比较当前和未来资源的衡量（指标）来分析演变情况有时是有用的。因此，跨越架构的多个阶段的混合SV-7模型可能会很有用。
 
-## **SV-8 系统演化描述**
+## **11.9 SV-8 系统演化描述**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_sv8/
 
@@ -3294,7 +3298,7 @@ SV-8可以根据时间线描述历史（遗留）、当前和未来的能力。�
 
 SV-8中描绘的变化来源于PV-2项目时间线中显示的项目里程碑。当PV-2项目时间线用于能力采购项目时，这两个模型之间可能存在密切的关系。
 
-## **SV-9 系统技术与技能预测**
+## **11.10 SV-9 系统技术与技能预测**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_sv9/
 
@@ -3339,7 +3343,7 @@ Script的可用性可能会影响采用新HTML标准的决策）。
 
 或者，SV-9也可以将预测与SV元素（例如系统）关联起来（如适用）。受预测影响的潜在资源列表也可以作为附加信息在SV-9中加以总结。
 
-## **SV-10a、SV-10b和SV-10c简介**
+## **11.11 SV-10a、SV-10b和SV-10c简介**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_sv10intro/
 
@@ -3361,7 +3365,7 @@ SV-10b和SV-10c可以根据需要单独使用或一起使用，以描述SV中关
 
 SV-10b和SV-10c都描述了对事件顺序的功能响应。事件也可以称为输入、事务或触发器。当事件发生时，所采取的行动可能受到SV-10a中描述的规则或规则集的约束。
 
-## **SV-10a 系统规则模型**
+## **11.12 SV-10a 系统规则模型**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_sv10a/
 
@@ -3404,7 +3408,7 @@ SV-10a 的预期用途包括：
 
 一些系统规则可以作为注释添加到其它模型中。SV-10a应提供完整规则集的列表，以及它们会影响到的任何模型的标记。
 
-## **SV-10b 系统状态转移描述**
+## **11.13 SV-10b 系统状态转移描述**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_sv10b/
 
@@ -3429,7 +3433,7 @@ SV-10b可以用来描述SV-4系统功能描述中所述功能的详细顺序。�
 
 SV-10b模型中的状态可以嵌套。这样就可以创建非常复杂的模型来表示系统行为。根据架构项目的需求，SV-10b可以单独使用，也可以与SV-10c系统事件追踪描述一起使用。
 
-## **SV-10c 系统事件追踪描述**
+## **11.14 SV-10c 系统事件追踪描述**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_sv10c/
 
@@ -3453,7 +3457,7 @@ SV-10c规定了资源流元素在资源或系统端口背景环境中交换的�
 
 SV-10c通常与SV-10b系统状态转移描述结合使用，以描述资源的动态行为。SV-10c中连接资源流的消息数据内容可能与其它模型中建模的资源流（SV-1系统接口描述和SV-3系统-系统矩阵中的交互）、资源流（SV-4系统功能描述和SV-6系统资源流矩阵中的数据）和实体（DIV-3物理数据模型中的实体）相关联。
 
-# **模型列表**
+# **12 模型列表**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_models/
 
@@ -3755,9 +3759,9 @@ href="https://dodcio.defense.gov/TodayinCIO/DoDArchitectureFramework/dodaf20_sv1
 </tbody>
 </table>
 
-# **架构开发**
+# **13 架构开发**
 
-## **架构展示技术**
+## **13.1 架构展示技术**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_presentation/
 
@@ -3822,7 +3826,7 @@ style="width:4.5in;height:4.47215in" />
 
 适合目的的视图为架构师和流程所有者提供了广泛的灵活性，可以创建易于理解并对管理层决策有用的架构视图。以下是对每种视图类型的描述。
 
-## **综合视图**
+## **13.2 综合视图**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_composite/
 
@@ -3923,7 +3927,7 @@ style="width:5.35417in;height:2.1875in" alt="Notional Dashboard" />
 
 仪表板在展示支持某项活动或修改数据元素的系统数量方面非常有效。它可以提供来自各种来源的数据，以创建多学科和多维度的绩效反馈。通过结合标准组件和构建块，仪表板能够创建一个满足特定需求的高管仪表板。
 
-## **融合视图**
+## **13.3 融合视图**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_fusion/
 
@@ -3975,7 +3979,7 @@ style="width:5.14583in;height:3.86111in" alt="Figure 8.6.2-2" />
 
 图形视图能够有效地传达复杂的定量概念。在一个对视觉刺激充满兴趣的社会中，使用图形视图提供了一种吸引人且高效的沟通工具。设计得当的图形视图可以促进理解和认知，促进分析，并支持思想的学习和共享。
 
-## **参考模型**
+## **13.4 参考模型**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_reference/
 
