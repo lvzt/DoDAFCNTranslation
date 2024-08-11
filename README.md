@@ -169,7 +169,7 @@
 
 更多许可信息，请访问：[许可协议网站](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-> 如有问题，请联系作者：lvzht@hotmail.com
+如有问题，请联系作者：lvzht@hotmail.com
 
 <img src="/image/image1.png"
 style="width:3.81964in;height:0.53475in" />
