@@ -214,9 +214,9 @@ DoDAF 2.0.2中文翻译
 
 更多许可信息，请访问：[许可协议网站](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-如有问题，请联系作者：lvzht@hotmail.com
+> 如有问题，请联系作者：lvzht@hotmail.com
 
-<img src="/image/image1.png"
+<img src="/image/image1.tmp"
 style="width:3.81964in;height:0.53475in" />
 
 # **背景**
@@ -538,7 +538,7 @@ DoDAF V2.0的主要变化包括：
 
 六步架构开发流程
 
-<img src="D:\File\DoDAF trans\Github/media/image2.png"
+<img src="/image/image2.png"
 style="width:5.99306in;height:3.61111in" />
 
 步骤1：确定架构的预期用途
@@ -625,7 +625,7 @@ V2.0并未规定物理数据模型，而是将该任务留给软件开发人员�
 
 建立架构的范围对于确保其目的和用途与特定项目目标一致至关重要。DoDAF中使用术语“适合目的”一词来描述适当关注的架构（及其视图）（即：响应流程所有者的既定目标和目的，在决策过程中是有用的，并且响应内部和外部利益相关者的关注）。满足预期目标意味着直接支持客户需求或改进正在进行变革的整个流程的那些行动。架构师是将决策者的需求转化为一组可以使用的数据的技术专家，工程师可以利用这些数据设计可能的解决方案。对于国防部的每个层面、目标和目的以及可能存在的相应问题都应根据既定的范围和目的予以解决（例如，部门、能力、SE和运营），如下图的概念图所示。
 
-<img src="D:\File\DoDAF trans\Github/media/image3.png"
+<img src="/image/image3.png"
 style="width:6in;height:4.73611in" />
 
 确定架构开发范围
@@ -640,7 +640,7 @@ V2.0可以灵活地开发适合目的的视图（用户开发的视图）和DoDA
 
 分析还揭示了当某些事物被重新定义、重新部署、删除、移动、延迟、加速或不再获得资助时变化的效果和影响（“假设”情况）。拥有支持分析的、严格的架构开发流程将产生高质量的结果，且不易产生误解，因此对决策者和任务成果具有很高的价值。
 
-<img src="D:\File\DoDAF trans\Github/media/image4.png"
+<img src="/image/image4.png"
 style="width:5.99306in;height:4.39583in" />
 
 架构支持的使命成果
@@ -665,7 +665,7 @@ IEA）这样的DoD级架构描述、DoD级能力架构描述和组件架构描�
 EA是一系列架构描述的联合体，解决方案架构描述必须与之一致。其内容包括但不限于优化和维护流程所需的规则、标准、服务和系统生命周期信息，或者自给自足的组织希望通过管理其IT组合来创建和维护的流程的一部分。DoD
 EA提供了一种战略，使组织能够支持其当前运营，同时充当过渡到目标环境的路线图。过渡过程包括组织的PfM、PPBE和EA规划流程，以及服务和系统生命周期方法。
 
-<img src="D:\File\DoDAF trans\Github/media/image5.png"
+<img src="/image/image5.png"
 style="width:5.97917in;height:4.63889in" />
 
 **国防部企业架构的组成部分**
@@ -852,7 +852,7 @@ DoDAF将DoDAF描述的模型组织到以下视角中：
 
 这些视角的表述如下图所示：
 
-<img src="D:\File\DoDAF trans\Github/media/image6.png"
+<img src="/image/image6.png"
 style="width:6in;height:3.47917in" />
 
 与之前的版本相比，DoDAF
@@ -862,7 +862,7 @@ V2.0基于流程所有者的输入，更加关注架构数据，并且通过用�
 
 -   如下图所示，原始的视角（运营/作战视角、系统和服务视角、技术标准视角和全景视角）已对其模型进行了重组，以更好地实现其目的。旧版的系统和服务视角中的服务部分现在是一个服务视角，更详细地描述我们以网络为中心或面向服务的实现方式。
 
-<img src="D:\File\DoDAF trans\Github/media/image7.png"
+<img src="/image/image7.png"
 style="width:5.97917in;height:4.57639in" />
 
 DoDAF V1.5到DoDAF V2.0的演化
@@ -3818,14 +3818,14 @@ href="https://dodcio.defense.gov/TodayinCIO/DoDArchitectureFramework/dodaf20_sv1
 
 为了让架构师能够给利益相关者讲述架构数据的故事，有效地展示商业信息是必要的。由于架构学科的目的是收集和存储有关企业或企业某个特定部分的所有相关信息，因此可以合理地假设组织决策者所需的大部分信息都包含在架构数据中。许多现有的架构方法在组织架构信息方面具有重要价值，但在向利益相关者传达这些信息方面的价值较低。展示视图始终依赖于通过严谨的架构方法收集的架构信息的质量。正如下图所示，展示技术从架构信息存储中提取数据，并以各种有意义的方式向利益相关者展示这些数据。
 
-<img src="D:\File\DoDAF trans\Github/media/image8.jpeg"
+<img src="/image/image8.jpeg"
 style="width:5.98611in;height:4.0625in" />
 
 展示技术
 
 这里描述的展示技术和最佳实践是基于这样一个理念而开发的：为了支持共同的用户需求，企业内部和外部架构中捕获的商业信息可以通过以一种增强清晰度和理解力并促进决策的方式进行展示。这通常意味着复杂的技术信息必须“翻译”成对管理层有用的展示形式。“信息桥”，如下面的图所示，是架构师与管理层之间的纽带。该桥梁提供了获取技术信息，并将该信息重新转换成与组织文化一致的图形或文本形式的方法。
 
-<img src="D:\File\DoDAF trans\Github/media/image9.png"
+<img src="/image/image9.png"
 style="width:5.98611in;height:1.80556in" />
 
 信息桥
@@ -3837,7 +3837,7 @@ V1.0和V1.5定义了一组产品，通过图形、表格或文本方式来可视
 
 在任何给定的业务流程中，组织的多个层级都需要做出决策。无论是高级管理人员、流程所有者还是系统开发人员，他们都需要基于可用数据做出判断。反过来，每个决策层级都有其独特的目的和对架构描述的理解，因此将数据量身定制以最大限度地提高其有效性非常重要。演示者在有经验的架构师的帮助下，必须在选择展示技术类型之前确定展示的受众。下图基于Zachman框架，总结了典型组织中组成受众的多个决策层级。
 
-<img src="D:\File\DoDAF trans\Github/media/image10.png"
+<img src="/image/image10.png"
 style="width:3.60417in;height:3.61253in" />
 
 决策者的层级
@@ -3846,7 +3846,7 @@ style="width:3.60417in;height:3.61253in" />
 
 缩小所需展示类型的范围可以通过以下问题来实现：决策者需要什么信息来做出数据支持的决策？对于每个决策层级，都有一个可以使用展示技术进行操作的数据集。在分析了受众和信息类型后，演示者应考虑本节所讨论的各种技术类型。“决策者层级”图是展示开发过程的简化表示。
 
-<img src="D:\File\DoDAF trans\Github/media/image11.png"
+<img src="/image/image11.png"
 style="width:4.5in;height:4.47215in" />
 
 展示开发流程
@@ -3891,14 +3891,14 @@ style="width:4.5in;height:4.47215in" />
 
 示例综合视图图示展示了一个简化的综合视图示例。活动“确定入职类型”通过用户界面由系统功能“维护候选人数据”进行支持。支持此系统功能的信息包括“入职类型信息”和“其他候选人信息”。该活动由“人力资源专家”执行。
 
-<img src="D:\File\DoDAF trans\Github/media/image12.png"
+<img src="/image/image12.png"
 style="width:5.99306in;height:2.02778in" />
 
 综合视图示例
 
 下图展示了另一个综合视图的最终版本。四个架构样本被展示出来，三维能力标签让受众知道它们之间的共同联系。
 
-<img src="D:\File\DoDAF trans\Github/media/image13.png"
+<img src="/image/image13.png"
 style="width:4.66667in;height:3.07639in" />
 
 另一个综合视图
@@ -3965,7 +3965,7 @@ style="width:4.66667in;height:3.07639in" />
 
 这些技术用于创建仪表板的示例图示。
 
-<img src="D:\File\DoDAF trans\Github/media/image14.gif"
+<img src="/image/image14.gif"
 style="width:5.35417in;height:2.1875in" alt="Notional Dashboard" />
 
 理论上的仪表盘
@@ -3988,7 +3988,7 @@ style="width:5.35417in;height:2.1875in" alt="Notional Dashboard" />
 
 财务数据融合视图示例将财务数据和支持信息纳入分析中。外部信息通常包括从授权来源收集到的财务数据或从工作分解结构（WBS）或类似报告机制收集到的调度信息和约束条件。此视图可以根据用户需求进行定制，以便用户使用任何与其需求相关的数据。
 
-<img src="D:\File\DoDAF trans\Github/media/image15.png"
+<img src="/image/image15.png"
 style="width:6in;height:8.44444in" />
 
 财务数据融合视图
@@ -4011,13 +4011,13 @@ style="width:6in;height:8.44444in" />
 
 以下图示说明了这一概念。图形视图的每个部分都对应于整体业务的一个详细区域，这些区域将由一组复杂的架构视图表示和组成。图形视图还用于展示业务区域之间的关系，这些关系共同构成完整的业务全貌。
 
-<img src="D:\File\DoDAF trans\Github/media/image16.jpeg"
+<img src="/image/image16.jpeg"
 style="width:3.88194in;height:2.63194in"
 alt="Non-prescriptive, Illustrative High-level Concept Description (OV-1)" />
 
 非规定性、说明性的高层概念描述（OV-1）
 
-<img src="D:\File\DoDAF trans\Github/media/image17.gif"
+<img src="/image/image17.gif"
 style="width:5.14583in;height:3.86111in" alt="Figure 8.6.2-2" />
 
 非规定性、说明性的高层运营/作战连接描述 (OV-2)
@@ -4033,7 +4033,7 @@ style="width:5.14583in;height:3.86111in" alt="Figure 8.6.2-2" />
 和技术参考模型
 (TRM)。通过使用这个通用的框架和词汇表，IT组合可以在联邦政府内部得到更好的管理和利用。
 
-<img src="D:\File\DoDAF trans\Github/media/image18.png"
+<img src="/image/image18.png"
 style="width:6in;height:5.94444in" />
 
 理论上的参考模型
@@ -4048,14 +4048,14 @@ style="width:6in;height:5.94444in" />
 参考模型的一个例子是FEA业务参考模型
 (BRM)。BRM提供了一个有组织的、分层的结构，用于描述联邦政府的日常业务运作。虽然存在许多描述组织的模型（如组织结构图、位置图等），但这个模型采用功能驱动的方法来展示业务。BRM中包含的业务线和子功能代表了从过去使用陈旧、分割、以机构为导向的框架的联邦政府模型的一种转变。BRM是联邦企业架构的第一层，也是数据、服务组件和技术分析的主要视角：
 
-<img src="D:\File\DoDAF trans\Github/media/image19.png"
+<img src="/image/image19.png"
 style="width:3.56944in;height:2.44443in" />
 
 BRM 结构
 
 BRM分为四个领域：公民服务、交付模式、服务支持交付和政府资源管理。该模型的四个业务领域被分解为39条业务线。每条业务线包含一组子功能，这些子功能代表BRM中的最低粒度级别。例如，环境管理业务线包括三个子功能：（1）环境监测和预报；（2）环境修复；（3）污染预防和控制。在每个子功能内，是特定机构的业务功能、流程和活动：
 
-<img src="D:\File\DoDAF trans\Github/media/image20.png"
+<img src="/image/image20.png"
 style="width:5.99306in;height:4.625in" />
 
 BRM领域
