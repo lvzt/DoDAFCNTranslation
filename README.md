@@ -174,7 +174,7 @@ DoDAF 2.0.2中文翻译
 <img src="/image/image1.png"
 style="width:3.81964in;height:0.53475in" />
 
-# **1 背景**
+# **1** **背景**
 
 原文链接：https://dodcio.defense.gov/Library/DoD-Architecture-Framework/dodaf20\_background/
 
