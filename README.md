@@ -216,7 +216,7 @@ DoDAF 2.0.2中文翻译
 
 如有问题，请联系作者：lvzht@hotmail.com
 
-<img src="./image/image1.tmp"
+<img src="/image/image1.png"
 style="width:3.81964in;height:0.53475in" />
 
 # **背景**
